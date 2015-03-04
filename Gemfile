@@ -22,6 +22,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # Add Simpleform
 gem 'simple_form'
+# Add Devise for user authentication
+gem 'devise'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
