@@ -19,7 +19,7 @@ class User < ActiveRecord::Base
   	create(
   		provider: auth_hash.provider,
   		uid: auth_hash.uid,
-  		email: auth_hash.infor.email,
+  		email: auth_hash.info.email,
   		name: auth_hash.info.name,
   		oauth_token: auth_hash.credentials.oauth_token,
   		oauth_expires_at: Time.at(auth_hash.credentials.expires_at)
